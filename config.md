@@ -39,3 +39,10 @@
 
 ```
 
+## Prettier
+
+- Diferente do eslint que serve para reforcar o code style, o prettier serve para formatar o código e deixa-lo mais `bonito`.
+- libs:
+- - prettier
+- - eslint-config-prettier
+- - eslint-plugin-prettier
