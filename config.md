@@ -46,3 +46,10 @@
 - - prettier
 - - eslint-config-prettier
 - - eslint-plugin-prettier
+
+## Husky e Lint-staged
+
+- [Husky](https://typicode.github.io/husky/)
+- [Lint-staged](https://github.com/lint-staged/lint-staged)
+- Husky serve para rodar scripts no git hooks, como por exemplo, rodar os testes antes de commitar.
+- Lint-staged serve para rodar scripts apenas nos arquivos que estão staged no git.
