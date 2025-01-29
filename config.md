@@ -53,3 +53,24 @@
 - [Lint-staged](https://github.com/lint-staged/lint-staged)
 - Husky serve para rodar scripts no git hooks, como por exemplo, rodar os testes antes de commitar.
 - Lint-staged serve para rodar scripts apenas nos arquivos que estão staged no git.
+## Conventional Commits && Commitlint
+
+### Dicas sobre convention commits
+
+- `build`: Alterações nas configurações de build (vite, webpack, npm, etc).
+- `chore`: Alteraçoes que nao modificam codigo nem testes (arquivos de configuracao, ferramentas, bibliotecas ,etc).
+- `ci`: Alterações em arquivos de configuração do CI (ex: Github Actions, Travis, Gitlab CI, etc).
+- `docs`: Alterações na documentação.
+- `feat`: Adição de uma nova funcionalidade.
+- `fix`: Correção de bugs.
+- `perf`: Alterações de código que melhoram a performance.
+- `refactor`: Alterações de código que não corrigem bugs nem adicionam funcionalidades.
+- `revert`: Alteraçoes que desfazem alguma coisa (git revert, por exemplo).
+- `style`: Alterações que não afetam o significado do código (espaços em branco, formatação, ponto e vírgula, etc).
+- `test`: Adição ou modificação de testes.
+
+### Commitlint
+
+- Define regras de como os commits devem ser feitos.
+- libs:
+- @commitlint/{cli,config-conventional}
